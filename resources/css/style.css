@@ -125,6 +125,20 @@ h2:after {
 	color: #E67E22;
 }
 
+.small-icon {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	color: #E67E22;
+	font-size: 120%;
+	margin-right: 10px;
+
+	/*secrets to align text and icons*/
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
 
 /* ------ BUTTONS ------ */ 
 
@@ -330,4 +344,37 @@ header {
 	height: 50px;
 	width: auto;
 	margin-right: 10px;
+}
+
+
+
+
+
+/* ------------------------------------------- */
+/* CITIES */
+/* ------------------------------------------- */
+
+.box img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.city-feature {
+	margin-bottom: 5px;
+}
+
+.section-cities a:link,
+.section-cities a:visited {
+	color: #E67E22;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #E67E22;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.section-cities a:hover,
+.section-cities a:active {
+	color: #555;
+	border-bottom: 1px solid transparent;
 }
