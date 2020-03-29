@@ -2,10 +2,14 @@
 <html lang="en">
 
 	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style.css">		
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 		<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 		<title>Omnifood</title>
@@ -140,9 +144,10 @@
 						<div>3</div>
 						<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
 					</div>
-
-					<a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store button"></a>
-					<a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store button"></a>
+					<div class="download-btn">
+						<a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store button"></a>
+						<a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store button"></a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -368,7 +373,7 @@
 						<div class="col span-1-of-3">
 							<label>&nbsp;</label>
 						</div>
-						<div class="col span-2-of-3">
+						<div class="col span-2-of-3 sub-btn">
 							<input type="submit" value="Send it!">
 						</div>
 					</div>

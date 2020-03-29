@@ -1,0 +1,121 @@
+/* Big tablet to 1200px (width: smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+	.hero-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+
+	.row { padding: 0 2%; }
+}
+
+
+/* Smaller tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+	body { font-size: 18px; }
+	section { padding: 60px 0; }
+
+	.long-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.btn-app img {
+		height: 45px;
+	}
+
+	.steps-box { margin-top: 10px; }
+	.steps-box:last-child { margin-top: 10px }
+	.works-step { margin-bottom: 40px; }
+	.works-step:last-of-type { margin-bottom: 60px; }
+
+	.app-screen { width: 50%; }
+
+	.small-icon {
+		width: 17px;
+		margin-right: 5px;
+	}
+
+	.plan-box {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.plan-price { font-size: 250%; }
+
+	.contact-form {	width: 80%; }
+
+	.footer-nav li,
+	.social-links li {
+		margin-right: 13px;
+	}
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+	body { font-size: 16px; }
+	section { padding: 30px 0; }
+
+	.row,
+	.hero-text-box { padding: 0 4%;	}
+	.col { 
+		width: 100%; 
+		margin: 0 0 4% 0;
+	}
+	.main-nav { display: none; }
+
+	h1 { font-size: 170%; }
+	h2 { font-size: 150%; }
+
+	.long-copy {
+		width: 98%;
+		margin-left: 1%;
+	}
+
+	.steps-box:first-child { text-align: center; }
+	.download-btn { text-align: center; }
+
+	.app-screen { width: 40%; }
+
+	.works-step div {
+		height: 40px;
+		width: 40px;
+		padding: 4px;
+		margin-right: 15px;
+		font-size: 120%;
+	}
+
+	.works-step { 
+		margin-bottom: 20px;
+		height: 40px; 
+	}
+	.works-step:last-of-type { margin-bottom: 20px; }
+
+	.sub-btn {
+		text-align: center;
+	}
+
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+	section { padding: 25px 0; }
+	.contact-form { width: 100%; }
+
+	h1 { font-size: 150%; }
+
+	.logo { 
+		height: 80px; 
+		margin: 10px;
+	}
+
+	.btn:link,
+	.btn:visited {
+		padding: 10px 20px;
+	}
+
+	.sub-btn {
+		text-align: center;
+	}
+
+}

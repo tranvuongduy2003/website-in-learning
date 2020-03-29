@@ -22,6 +22,7 @@ html {
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 
@@ -31,10 +32,6 @@ html {
 /* ------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------------- */
-
-.section-steps {
-	background-color: #F4F4F4;
-}
 
 .row {
 	max-width: 1140px;
@@ -310,6 +307,14 @@ header {
 /* HOW IT WORKS */
 /* ------------------------------------------- */
 
+.section-steps {
+	background-color: #F4F4F4;
+}
+
+.steps-box {
+	margin-top: 30px;
+}
+
 .steps-box:first-child {
 	text-align: right;
 	padding-right: 3%;
@@ -317,6 +322,7 @@ header {
 }
 
 .steps-box:last-child {
+	text-align: left;
 	padding-left: 3%;
 	margin-top: 70px;
 }
@@ -338,8 +344,8 @@ header {
 	border: 2px solid #E67E22;
 	display: inline-block;
 	border-radius: 50%; 
-	height: 55px;
-	width: 55px;
+	height: 54px;
+	width: 54px;
 	text-align: center;
 	padding: 5px;
 	float: left;
