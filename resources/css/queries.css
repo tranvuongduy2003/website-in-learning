@@ -65,6 +65,7 @@
 	.mobile-nav-icon { display: inline-block; }
 
 	.main-nav { 
+		display: none;
 		float: left; 
 		margin-top: 25px;
 		margin-left: 25px;
@@ -140,8 +141,12 @@
 	h1 { font-size: 150%; }
 
 	.logo { 
-		height: 80px; 
-		margin: 10px;
+		height: 60px; 
+		margin-left: 5px;
+	}
+
+	.main-nav { 
+		margin-left: 0;
 	}
 
 	.btn:link,
