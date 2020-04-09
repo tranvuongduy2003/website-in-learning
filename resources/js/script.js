@@ -91,4 +91,25 @@ $(document).ready(function() {
 		offset: '60%'
 	});
 
+
+
+
+
+	/* Mobile nav */
+
+	$('.js--nav-icon').click(function() {
+		var nav = $('.js--main-nav');
+		var icon = $('.js--nav-icon ion-icon');
+
+		nav.slideToggle(200);
+
+		if (icon.attr('name') == 'menu-sharp') {
+			icon.attr('name', 'close-sharp');
+		} else {
+			icon.attr('name', 'menu-sharp');
+		}
+
+
+	});
+
 });
